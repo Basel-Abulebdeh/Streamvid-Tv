@@ -1,0 +1,1035 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+.category-clr{
+    color: #a7a5ad;
+}
+.custom_container{
+    display: flex;
+    align-items: center;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 3.5);
+    padding-left: calc(var(--bs-gutter-x) * 3.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.margin-center{
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #00031c;
+}
+
+:root{
+    --mainColor:#7b61ff;
+}
+
+.Reviwer-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.mainColor{
+    color: var(--mainColor);
+}
+
+.width-content{
+    width: fit-content;
+}
+
+.bg-mainClr{
+    background-color: var(--mainColor);
+}
+.card{
+    background: none;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.wh-150{
+    width: 150px;
+    height: 150px;
+}
+.main-button{
+    font-family: 'MetropolitanoRegular',sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .8rem 2rem;
+}
+
+
+/*Login/SignUp Pages*/
+
+
+.Login, .Sign-Up{
+  width: 30%;
+    backdrop-filter: blur(.7rem);
+}
+@media screen and (max-width:1176px){
+    .Login-Section .Login,
+    .SignUp-Section .Sign-Up{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .Login-Section .Login,
+    .SignUp-Section .Sign-Up{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:890px){
+    .Login-Section .Login,
+    .SignUp-Section .Sign-Up{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .Login-Section .Login,
+    .SignUp-Section .Sign-Up{    
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:550px){
+    .Login-Section .Login,
+    .SignUp-Section .Sign-Up{
+          width: 80%;
+    }
+}
+
+.Welcome{
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.875rem;
+}
+
+.Login h1,
+.Sign-Up h1{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+
+.New-Account{
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.form-control::placeholder{
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000; 
+}
+
+.Login a,
+ .Sign-Up a{
+  font-weight: 500; 
+  color: blue;
+}
+
+.Login-Section,
+.SignUp-Section{
+    background-image: url('./Login-image/Login-Bg.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.login-bg{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.Login-icon{
+    right: 1.4rem;
+    top: 1rem;
+}
+
+.Login-btn:hover{
+    background-color: #f41008ec;
+}
+
+.Login-Section input,
+.Sign-Up input{
+  padding: .6rem 0;
+}
+
+.Login-Section button,
+.Sign-Up button{
+  padding: .5rem; 
+}
+
+.Font-lato{
+    font-family: "Lato", sans-serif;
+}
+
+.description{
+    font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: .9rem;
+}
+
+.input-form::placeholder{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/*Login/SignUp Pages*/
+
+
+
+/*Header Section*/
+.header{
+    background-image: url('./images/NewMoviesimages/John-Wick.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 -130px;
+    height: 85vh;
+}
+
+.header-linear-grad{
+    background: RGBA(0, 0, 0, 0.9);
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 18%, rgba(0, 0, 0, 0.48) 37%, rgba(0, 0, 0, 0.24) 57%, rgba(0, 0, 0, 0.09) 80%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-f-desc{
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #a7a5ad;
+}
+.nav-link{
+    font-family: "Lato", sans-serif;
+    font-size: .9rem;
+    font-weight: 600; 
+}
+
+.navbar .dropdown-menu{
+  background-color:#00031c;
+  border: 2px solid var(--mainColor);
+  padding: 0rem 4rem;
+}
+
+.navbar .dropdown-item{
+  font-family: "Lato", sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #fff;   
+}
+.navbar .dropdown-item:hover{
+  color: var(--mainColor);
+  background-color: transparent;
+  margin-left: .5rem;
+}
+
+.input-form{
+    padding: .6rem 1.6rem;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: .625rem;  
+}
+.Search-form{
+    position:relative ;
+    padding: .6rem 2rem; 
+    background: transparent;
+}
+.search-icon{
+    position: absolute;
+    left: 2.8rem;
+    top: 1rem;  
+    font-size: 1.3rem;
+}
+.input-form{
+    background-color: transparent;
+}
+.input-form:hover{
+    background-color: transparent;
+}
+.Search-form:hover{
+    background-color: transparent;
+}
+
+.language-select{
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.Film-content{
+    height: 79.3vh;
+}
+
+.special-TV-MA{
+    background-color: rgba(255, 255, 255, .1);
+    padding: 0rem 0.6rem;
+    border-radius: .4rem;
+}
+
+.Details{
+    font-family: 'MetropolitanoRegular',sans-serif;
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #abacb3;
+}
+.watch-live button,
+.watch-live{
+     font-family: "Lato", sans-serif;
+  font-weight: 700; 
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.Watch-Later{
+    transition: .6s;
+}
+
+.Watch-Later:hover{
+    color: var(--mainColor);
+}
+
+@media screen and (max-width:600px){
+    .navbar    .Subscribe-btn{        
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:1320px){
+    .navbar .language-select{
+        visibility: hidden;
+    }
+}
+/*Header Section*/
+
+/*New Release Section*/
+.View-all{
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.card-title{
+    font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.card-title:hover{
+    color: var(--mainColor);
+    cursor: pointer;
+}
+
+.Movie-DT-Type{
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.nxt-btn2{
+    padding: 2.1rem .6rem;
+    right: 10rem;
+    bottom: 20rem;
+    background-color:#232c32;
+}
+
+
+.nxt-btn2:hover{
+    background-color: var(--mainColor);
+    cursor: pointer;   
+}
+
+.NewReleaseCard:hover .play-btn,
+.NewReleaseCard:hover .Add-List-btn{
+    visibility: visible;
+}
+
+.play-btn{
+    position: absolute;
+    top: 10rem;
+    left: 7rem;
+    font-size: 3rem;
+}
+
+.play-btn:hover{
+    color: var(--mainColor);
+    cursor: pointer;  
+}
+
+.Add-List-btn{
+    position: absolute;
+    bottom: 9.5rem;
+    left: 2rem;
+    width: 75%;
+}
+
+.Add-List-btn:hover{
+    background-color: var(--mainColor); 
+}
+
+.Movie-Category{
+    font-family: "Lato";
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #a7a5ad;
+}
+
+.Movie-DT{
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #a7a5ad;
+}
+/*New Release Section*/
+
+.Movies-Year .card h3{
+    font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.Movies-Year .card a{
+font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+.caption-title{
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 3.1rem;
+}
+
+.Rating{
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.bg-button{
+    background-color: rgba(255, 255, 255, .1);
+}
+
+
+/*Almost Adults Section*/
+
+@media screen and (max-width:1400px){
+    .Almost-Adults-Section .Adults-Smallimages{
+        visibility: hidden;
+    }
+  
+}
+
+.Almost-Adults-Section{
+    background-image: url('./images/Almost-Adults-images/Almost-Adults-bg.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+.Almost-Adults-Section h2{
+     font-family: "Lato";
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.Adults-Smallimages{
+    right: 6rem;
+    top: 5rem; 
+} 
+
+.Adults-WatchTrailer{
+    right: 24%;
+    top: 53%;
+}
+
+.Almost-Adults-Section p{
+    font-family: "Lato";
+  font-weight: 700;
+  font-size: 1rem;
+    color: #a7a5ad;
+}
+
+.Play-Now{
+    font-family: "Lato", sans-serif;
+  font-weight: 700; 
+  font-size: 1rem;
+  color: #fff;
+  padding: .8rem 2rem;
+}
+
+.Adults-WatchTrailer h4{
+    font-family: "Lato";
+  font-weight: 700; 
+  font-size: 1.1rem;
+}
+.Plus-btn{
+  background-color: #161934;
+  padding: .8rem 1rem;
+}
+
+.plus{
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+/*Almost Adults Section*/
+
+
+/*Deal of the Week*/
+
+.DealofWeek-movies h3{
+  font-family: "Lato";
+  font-weight: 800;
+  font-size: 1rem;
+}
+.DealCard:hover{
+    background-color: #101c32;
+    transition: .5s;
+    /*transform: translateX(100%); */
+}
+
+.card-img-overlay:hover .Add-List-btn,
+.card-img-overlay:hover .text-hidden{
+    
+    visibility: visible;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.card-img-top {
+    transition: transform 0.8s;
+    border-radius: 0.5rem;
+    
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    margin-bottom: 1rem;  
+}
+.Add-List-btn1{
+    bottom: 1rem;
+    left: 1.5rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    
+}
+
+/*Deal of the Week*/
+
+
+.position-relative{
+    position: relative;
+}
+
+.nxt-btn1{
+    padding: 2.1rem .6rem;
+    right: 10rem;
+    top: 10rem;
+    background-color:#232c32;
+}
+
+.nxt-btn1:hover{
+    background-color: var(--mainColor);
+    cursor: pointer;  
+}
+
+
+/*TV Series Section*/
+
+.Series-description{
+    font-family: "Lato";
+    font-weight: 800;
+    font-size: 1rem;
+    bottom: 4%;
+    left: 5%;
+}
+
+.Tv-cardBody{
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: .8rem;
+    top: 35%;
+}
+
+/*TV Series Section*/
+
+
+/*Pieces of herSection*/
+.pieces-of-herSection{
+    background-image: url(./images/Pieces-of-her-images/Pieces-of-her-bg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 25vh;;
+}
+
+.pieces-of-herSection p{
+     font-family: "Lato", sans-serif;
+  font-weight:400;
+  font-size: 1.1rem;
+  letter-spacing: .3rem;
+  
+}
+
+.pieces-of-herSection h3{
+     font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  letter-spacing: .5rem;
+  word-spacing: .3rem;
+}
+
+.Trailer-btn2{
+    right: 0rem;
+    top: 4rem;
+}
+
+/*Pieces of herSection*/
+
+/*Recommended Section*/
+.nxt-btn3{
+    padding: 2.1rem .6rem;
+    right: 8.8rem;
+    bottom: 10rem;
+    
+}
+
+.nxt-btn3:hover{
+    background-color: var(--mainColor);
+    cursor: pointer;   
+}
+/*Recommended Section*/
+
+/*Exclusive Section*/
+
+.Exclusive-Section h3{
+    font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: .9rem;
+}
+
+.Exclusive-Section span{
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: .9rem;
+  color: #a7a5ad;
+}
+
+/*Exclusive Section*/
+
+
+
+/*Game of thrones*/
+.GOT p{
+     font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+
+.Trailer-btn{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.Trailer-btn:hover{
+    background-color: var(--mainColor); 
+    
+}
+
+.GOT-Bg{
+    background-color: #18133a;
+}
+/*Game of thrones*/
+
+/*Artist Section*/
+.Artist h3{
+    font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+}
+/*Artist Section*/
+
+/*News Section*/
+.Caption-title{
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.News-title{
+    font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.News-text{
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: .85rem;
+}
+
+.News-Author span{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: .9rem;
+}
+.News-section span:hover{
+    color: var(--mainColor);
+    cursor: pointer;
+}
+/* News Sction*/
+
+
+/* Features Page*/
+.Movies-list h3{
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.bg-menu{
+    background-color: #191c33;
+}
+
+.Movies-list a:hover{
+  color: var(--mainColor)
+}
+
+.Year-btn:hover{
+    background-color: var(--mainColor);
+    color: #FFf;
+}
+
+.Movie-number{
+    color: #fff;
+    font-size: 1.5rem !important; 
+    right: 12.3rem;
+    top: 1.8rem;
+}
+.Top-5-Movies h4{
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.Top-5-Movies h4:hover{
+    color: var(--mainColor);
+    cursor: pointer;
+}
+
+.Top-5-Movies span{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: .8rem;  
+}
+
+.page-trans button:hover{
+    background-color: #7b61ff;
+    color: #fff;
+}
+
+/* Features Page*/
+
+
+/* Subscribe page */
+.Subscribtion{
+    border: 2px solid #7b61ff;
+    padding: 2rem;  
+}
+
+.plan-btn{
+  border: 2px solid #7b61ff;
+  background-color: transparent;
+  color: #7b61ff;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.plan-btn:hover{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+.Plan-details h1{
+    font-family: "Lato";
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.Plan-details p{
+
+      font-family: "Lato";
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #abacb3;
+}
+
+
+.Subscribtion span,
+.Subscribtion-2 span{
+      font-family: "Lato";
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.Subscribtion-type{
+      font-family: "Lato";
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--mainColor);
+}   
+
+.Subscribtion li,
+.Subscribtion-2 li{
+      font-family: "Lato";
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #fff;
+  text-align: start;
+}
+
+.Demo-2{
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.bg-g{
+    background-color: #191c33;
+}
+
+.dot{
+    font-size: .5rem;
+    color: var(--mainColor);
+    right: 103%;
+    top: 20%;
+}
+
+.true{
+    font-size: .7rem;
+    background-color: var(--mainColor);
+    border-radius: 50%;
+    padding: .3rem;
+    right: 103%;
+    top: 6%;
+}
+/* Subscribe Page */
+
+
+.Actions-btns button{
+    color: #fff;
+    font-size: 16px;
+}
+
+.Down-btn{
+    font-family: "Lato";
+  font-weight: 700;
+  font-size: 1rem;
+  
+}
+
+.Actions-btns button:hover,
+.Down-btn:hover{
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+/*Blogs Page*/
+@media screen and (max-width:740px){
+    .Blogs-News .row{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
+
+.Blog h2{
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.Blog p{
+    font-family: "Lato";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #a7a5ad;
+}
+
+.Blogs-News h4{
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.Blogs-News p{
+    font-family: "Lato";
+  font-weight: 600;
+  font-size: .85rem;
+  color: #a7a5ad;
+}
+
+.Blogs-News span{
+    font-family: "Lato";
+  font-weight: 600;
+  font-size: .86rem;
+}
+
+.Load-Morebtn{
+    padding: .9rem 2.1rem;
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+/*Blogs Page*/
+
+
+
+
+/* John Wick Ch4 */
+.John-Wick-Des h1{
+    font-family: "Lato";
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.John-Wick-Des .Movie-DT-Type{
+    font-family: "Lato";
+  font-weight: 600;
+  font-size: .9rem;
+  color: #a7a5ad;
+}
+
+.John-Wick-Des .Movie-Category{
+    font-family: "Lato";
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+.John-Wick-Des p{
+    font-family: "Lato";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #a7a5ad;
+}
+
+.John-Wick-Des .Crew h4{
+    font-family: "Lato";
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.John-Wick-Des .card h3{
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.John-Wick-Des .card-text{
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: .9rem;
+}
+
+.User-Review h3{
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.User-Review h4{
+    font-family: "Lato";
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.User-Review span,
+.User-Review .form-label{
+    font-family: "Lato";
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.User-Review .form-check-label{
+    font-family: "Lato";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #a7a5ad;
+}
+
+.Reviwer h5{
+    font-family: "Lato";
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.Reviwer p{
+    font-family: "Lato";
+  font-weight: 500;
+  font-size: 1rem;
+  color: #a7a5ad;
+}
+/* John Wick Ch4 */
+
+
+
+.trailer-btn:hover{
+    background-color: var(--mainColor);
+    cursor: pointer;
+    
+}
+
+.Trailer-btn{
+    background-color: #fff;
+ 
+}
+
+footer{
+    background-color: #161934;
+}
+.Must-Watch-Movies-nav a,
+.Geners-nav a,
+.Help-nav a,
+.Jobs-nav a{
+color: white;
+}
+
+
+
+
+
+
+
+
