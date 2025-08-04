@@ -76,8 +76,6 @@ body{
 
 
 /*Login/SignUp Pages*/
-
-
 .Login, .Sign-Up{
   width: 30%;
     backdrop-filter: blur(.7rem);
@@ -118,30 +116,21 @@ body{
 }
 
 .Welcome{
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-  font-size: 1.875rem;
+  font: italic 900 1.875rem "Lato", sans-serif;
 }
 
 .Login h1,
 .Sign-Up h1{
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: 1.8rem;
+   font: 700 1.8rem "Lato", sans-serif;
 }
 
-
 .New-Account{
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+   font: 500 1.1rem "Lato", sans-serif;
+  
 }
 
 .form-control::placeholder{
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
+  font: 500 1rem "Lato", sans-serif;
   color: #000; 
 }
 
@@ -163,8 +152,8 @@ body{
 }
 
 .Login-icon{
-    right: 1.4rem;
-    top: 1rem;
+    right: 4%;
+    top: 30%;
 }
 
 .Login-btn:hover{
@@ -186,15 +175,11 @@ body{
 }
 
 .description{
-    font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-size: .9rem;
+  font:900 .9rem "Lato", sans-serif;
 }
 
 .input-form::placeholder{
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
+  font: 400 1rem "Lato", sans-serif;
   color: #fff;
 }
 
@@ -217,15 +202,11 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 }
 
 .header-f-desc{
-    font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 1.1rem;
+  font: 400 1.1rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 .nav-link{
-    font-family: "Lato", sans-serif;
-    font-size: .9rem;
-    font-weight: 600; 
+  font: 600 .9rem "Lato", sans-serif;
 }
 
 .navbar .dropdown-menu{
@@ -235,9 +216,7 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 }
 
 .navbar .dropdown-item{
-  font-family: "Lato", sans-serif;
-    font-size: .9rem;
-    font-weight: 600;
+  font: 600 .9rem "Lato", sans-serif;
     color: #fff;   
 }
 .navbar .dropdown-item:hover{
@@ -258,8 +237,8 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 }
 .search-icon{
     position: absolute;
-    left: 2.8rem;
-    top: 1rem;  
+    left: 15%;
+    top: 25%;  
     font-size: 1.3rem;
 }
 .input-form{
@@ -273,13 +252,11 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 }
 
 .language-select{
-    font-family: "Lato", sans-serif;
-    font-size: 1rem;
-    font-weight: 800;
+  font: 800 1rem "Lato", sans-serif;
 }
 
 .Film-content{
-    height: 79.3vh;
+    height: 70vh;
 }
 
 .special-TV-MA{
@@ -289,16 +266,12 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 }
 
 .Details{
-    font-family: 'MetropolitanoRegular',sans-serif;
-    font-size: 1.1rem;
-    font-weight: 200;
+  font: 200 1rem "Lato", sans-serif;
     color: #abacb3;
 }
 .watch-live button,
 .watch-live{
-     font-family: "Lato", sans-serif;
-  font-weight: 700; 
-  font-size: 1.4rem;
+  font: 700 1.4rem "Lato", sans-serif;
   color: #fff;
 }
 
@@ -325,15 +298,11 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 
 /*New Release Section*/
 .View-all{
-  font-family: "Lato", sans-serif;
-  font-weight: 800;
-  font-size: 1.1rem;
+  font: 800 1.1rem "Lato", sans-serif;
 }
 
 .card-title{
-    font-family: "Lato", sans-serif;
-  font-weight: 800;
-  font-size: 1.3rem;
+  font: 800 1.3rem "Lato", sans-serif;
 }
 
 .card-title:hover{
@@ -342,15 +311,13 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 }
 
 .Movie-DT-Type{
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: 1rem;
+  font: 800 1rem "Lato", sans-serif;
 }
 
 .nxt-btn2{
     padding: 2.1rem .6rem;
-    right: 10rem;
-    bottom: 20rem;
+    right: 10%;
+    bottom: 50%;
     background-color:#232c32;
 }
 
@@ -367,8 +334,8 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 
 .play-btn{
     position: absolute;
-    top: 10rem;
-    left: 7rem;
+    top: 30%;
+    left: 40%;
     font-size: 3rem;
 }
 
@@ -379,8 +346,8 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 
 .Add-List-btn{
     position: absolute;
-    bottom: 9.5rem;
-    left: 2rem;
+    bottom: 30%;
+    left: 13%;
     width: 75%;
 }
 
@@ -389,43 +356,31 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.88) 0%, rgba(0, 0, 0, 0.68) 1
 }
 
 .Movie-Category{
-    font-family: "Lato";
-  font-weight: 700;
-  font-size: 1.1rem;
+  font: 700 1.1rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 
 .Movie-DT{
-  font-family: "Lato";
-  font-weight: 500;
-  font-size: 1.1rem;
+  font: 500 1.1rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 /*New Release Section*/
 
 .Movies-Year .card h3{
-    font-family: "Lato", sans-serif;
-  font-weight: 800;
-  font-size: 1rem;
+  font: 800 1rem "Lato", sans-serif;
   color: #fff;
 }
 
 .Movies-Year .card a{
-font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: .9rem;
+  font: 700 .9rem "Lato", sans-serif;
 }
 
 .caption-title{
-  font-family: "Lato", sans-serif;
-  font-weight: 800;
-  font-size: 3.1rem;
+  font: 800 3.1rem "Lato", sans-serif;
 }
 
 .Rating{
-  font-family: "Lato", sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
+  font: 500 1rem "Lato", sans-serif;
   color: #fff;
 }
 
@@ -451,14 +406,12 @@ font-family: "Lato", sans-serif;
 }
 
 .Almost-Adults-Section h2{
-     font-family: "Lato";
-  font-weight: 900;
-  font-size: 3rem;
+  font: 900 3rem "Lato", sans-serif;
 }
 
 .Adults-Smallimages{
-    right: 6rem;
-    top: 5rem; 
+    right: 7%;
+    top: 19%; 
 } 
 
 .Adults-WatchTrailer{
@@ -467,24 +420,18 @@ font-family: "Lato", sans-serif;
 }
 
 .Almost-Adults-Section p{
-    font-family: "Lato";
-  font-weight: 700;
-  font-size: 1rem;
+  font: 700 1rem "Lato", sans-serif;
     color: #a7a5ad;
 }
 
 .Play-Now{
-    font-family: "Lato", sans-serif;
-  font-weight: 700; 
-  font-size: 1rem;
+  font: 700 1rem "Lato", sans-serif;
   color: #fff;
   padding: .8rem 2rem;
 }
 
 .Adults-WatchTrailer h4{
-    font-family: "Lato";
-  font-weight: 700; 
-  font-size: 1.1rem;
+  font: 700 1.1rem "Lato", sans-serif;
 }
 .Plus-btn{
   background-color: #161934;
@@ -502,9 +449,7 @@ font-family: "Lato", sans-serif;
 /*Deal of the Week*/
 
 .DealofWeek-movies h3{
-  font-family: "Lato";
-  font-weight: 800;
-  font-size: 1rem;
+  font: 800 1rem "Lato", sans-serif;
 }
 .DealCard:hover{
     background-color: #101c32;
@@ -548,8 +493,8 @@ font-family: "Lato", sans-serif;
 
 .nxt-btn1{
     padding: 2.1rem .6rem;
-    right: 10rem;
-    top: 10rem;
+    right: 10%;
+    top: 43%;
     background-color:#232c32;
 }
 
@@ -562,17 +507,13 @@ font-family: "Lato", sans-serif;
 /*TV Series Section*/
 
 .Series-description{
-    font-family: "Lato";
-    font-weight: 800;
-    font-size: 1rem;
+  font: 800 1rem "Lato", sans-serif;
     bottom: 4%;
     left: 5%;
 }
 
 .Tv-cardBody{
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: .8rem;
+  font: 800 .8rem "Lato", sans-serif;
     top: 35%;
 }
 
@@ -588,17 +529,13 @@ font-family: "Lato", sans-serif;
 }
 
 .pieces-of-herSection p{
-     font-family: "Lato", sans-serif;
-  font-weight:400;
-  font-size: 1.1rem;
+  font: 400 1.1rem "Lato", sans-serif;
   letter-spacing: .3rem;
   
 }
 
 .pieces-of-herSection h3{
-     font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 2.2rem;
+  font: 400 2.2rem "Lato", sans-serif;
   letter-spacing: .5rem;
   word-spacing: .3rem;
 }
@@ -613,8 +550,8 @@ font-family: "Lato", sans-serif;
 /*Recommended Section*/
 .nxt-btn3{
     padding: 2.1rem .6rem;
-    right: 8.8rem;
-    bottom: 10rem;
+    right: 10%;
+    bottom: 40%;
     
 }
 
@@ -627,15 +564,11 @@ font-family: "Lato", sans-serif;
 /*Exclusive Section*/
 
 .Exclusive-Section h3{
-    font-family: "Lato", sans-serif;
-  font-weight: 800;
-  font-size: .9rem;
+  font: 800 1rem "Lato", sans-serif;
 }
 
 .Exclusive-Section span{
-    font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: .9rem;
+  font: 600 .9rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 
@@ -645,17 +578,13 @@ font-family: "Lato", sans-serif;
 
 /*Game of thrones*/
 .GOT p{
-     font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: 2.8rem;
+  font:600 2.8rem "Lato", sans-serif;
 }
 
 .Trailer-btn{
     color: #000;
-    font-size: 1rem;
-    font-weight: 700;
+    font: 700 1rem;
 }
-
 .Trailer-btn:hover{
     background-color: var(--mainColor); 
     
@@ -668,49 +597,49 @@ font-family: "Lato", sans-serif;
 
 /*Artist Section*/
 .Artist h3{
-    font-family: "Lato", sans-serif;
-  font-weight: 800;
-  font-size: 1rem;
+  font: 800 1rem "Lato", sans-serif;
 }
 /*Artist Section*/
 
 /*News Section*/
 .Caption-title{
-  font-family: "Lato", sans-serif;
-  font-weight: 800;
-  font-size: 1.5rem;
+  font: 800 1.5rem "Lato", sans-serif;
+
 }
 
 .News-title{
-    font-family: "Lato", sans-serif;
-  font-weight: 800;
-  font-size: 1rem;
+  font: 800 1rem "Lato", sans-serif;
 }
 
 .News-text{
-    font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: .85rem;
+  font: 800 .85rem "Lato", sans-serif;
 }
 
 .News-Author span{
-    font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: .9rem;
+  font: 700 .9rem "Lato", sans-serif;
 }
 .News-section span:hover{
     color: var(--mainColor);
     cursor: pointer;
+}
+
+@media screen and (max-width:760px){
+   .News-section .News-img{
+    width: 100%;
+   }
+
+   .News-section .News-img img{
+    width: 100%;
+   }
+  
 }
 /* News Sction*/
 
 
 /* Features Page*/
 .Movies-list h3{
-    font-family: "Lato", sans-serif;
-  font-weight: 600;
+  font: 600 1.5rem "Lato", sans-serif;
   color: #fff;
-  font-size: 1.5rem;
 }
 .bg-menu{
     background-color: #191c33;
@@ -728,14 +657,18 @@ font-family: "Lato", sans-serif;
 .Movie-number{
     color: #fff;
     font-size: 1.5rem !important; 
-    right: 12.3rem;
-    top: 1.8rem;
+    right: 95%;
+    top: 28%;
+}
+
+@media screen and (max-width:990px){
+    .Top-5-Movies .Movie-number{
+     left: -.5%;
+    }
 }
 .Top-5-Movies h4{
-    font-family: "Lato", sans-serif;
-  font-weight: 600;
+  font: 600 1rem "Lato", sans-serif;
   color: #fff;
-  font-size: 1rem;
 }
 
 .Top-5-Movies h4:hover{
@@ -744,10 +677,8 @@ font-family: "Lato", sans-serif;
 }
 
 .Top-5-Movies span{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    color: #fff;
-    font-size: .8rem;  
+  font: 400 .8rem "Lato", sans-serif;
+    color: #fff; 
 }
 
 .page-trans button:hover{
@@ -768,9 +699,7 @@ font-family: "Lato", sans-serif;
   border: 2px solid #7b61ff;
   background-color: transparent;
   color: #7b61ff;
-  font-family: "Lato";
-  font-weight: 700;
-  font-size: 1.2rem;
+  font: 700 1.2rem "Lato", sans-serif;
 }
 
 .plan-btn:hover{
@@ -779,49 +708,36 @@ font-family: "Lato", sans-serif;
 }
 
 .Plan-details h1{
-    font-family: "Lato";
-  font-weight: 700;
-  font-size: 3rem;
+  font:700 3rem "Lato", sans-serif;
   color: #fff;
 }
 
 .Plan-details p{
-
-      font-family: "Lato";
-  font-weight: 500;
-  font-size: 1.2rem;
+  font: 500 1.2rem "Lato", sans-serif;
   color: #abacb3;
 }
 
 
 .Subscribtion span,
 .Subscribtion-2 span{
-      font-family: "Lato";
-  font-weight: 700;
-  font-size: 1.25rem;
+  font: 700 1.25rem "Lato", sans-serif;
   color: #fff;
 }
 
 .Subscribtion-type{
-      font-family: "Lato";
-  font-weight: 900;
-  font-size: 2rem;
+  font: 900 2rem "Lato", sans-serif;
   color: var(--mainColor);
 }   
 
 .Subscribtion li,
 .Subscribtion-2 li{
-      font-family: "Lato";
-  font-weight: 500;
-  font-size: 1.25rem;
+  font: 500 1.25rem "Lato", sans-serif;
   color: #fff;
   text-align: start;
 }
 
 .Demo-2{
-  font-family: "Lato";
-  font-weight: 700;
-  font-size: 1.9rem;
+  font: 700 1.9rem "Lato", sans-serif;
   color: #fff;
 }
 
@@ -853,10 +769,7 @@ font-family: "Lato", sans-serif;
 }
 
 .Down-btn{
-    font-family: "Lato";
-  font-weight: 700;
-  font-size: 1rem;
-  
+  font: 700 1rem "Lato", sans-serif;  
 }
 
 .Actions-btns button:hover,
@@ -875,42 +788,30 @@ font-family: "Lato", sans-serif;
 }
 
 .Blog h2{
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: 3rem;
+  font: 800 3rem "Lato", sans-serif;
 }
 
 .Blog p{
-    font-family: "Lato";
-  font-weight: 600;
-  font-size: 1rem;
+  font: 600 1rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 
 .Blogs-News h4{
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: 1rem;
+  font: 800 1rem "Lato", sans-serif;
 }
 
 .Blogs-News p{
-    font-family: "Lato";
-  font-weight: 600;
-  font-size: .85rem;
+  font: 600 .85rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 
 .Blogs-News span{
-    font-family: "Lato";
-  font-weight: 600;
-  font-size: .86rem;
+  font: 600 .86rem "Lato", sans-serif;
 }
 
 .Load-Morebtn{
+  font: 800 1.1rem "Lato", sans-serif;
     padding: .9rem 2.1rem;
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: 1.1rem;
 }
 /*Blogs Page*/
 
@@ -919,86 +820,56 @@ font-family: "Lato", sans-serif;
 
 /* John Wick Ch4 */
 .John-Wick-Des h1{
-    font-family: "Lato";
-  font-weight: 600;
-  font-size: 3.5rem;
+  font: 600 3.5rem "Lato", sans-serif;
 }
 
-.John-Wick-Des .Movie-DT-Type{
-    font-family: "Lato";
-  font-weight: 600;
-  font-size: .9rem;
+.John-Wick-Des .Movie-DT-Type,
+.John-Wick-Des p{
+  font: 600 .9rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 
 .John-Wick-Des .Movie-Category{
-    font-family: "Lato";
-  font-weight: 600;
-  font-size: .9rem;
-}
-
-.John-Wick-Des p{
-    font-family: "Lato";
-  font-weight: 600;
-  font-size: 1rem;
-  color: #a7a5ad;
+font: 600 .9rem "Lato", sans-serif;
 }
 
 .John-Wick-Des .Crew h4{
-    font-family: "Lato";
-  font-weight: 700;
-  font-size: 1rem;
+  font: 700 1rem "Lato", sans-serif;
 }
 
 .John-Wick-Des .card h3{
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: 1rem;
+  font: 800 1rem "Lato", sans-serif;
 }
 
 .John-Wick-Des .card-text{
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: .9rem;
+   font: 800 .9rem "Lato", sans-serif;
 }
 
 .User-Review h3{
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: 1.5rem;
+   font: 800 1.5rem "Lato", sans-serif;
 }
 
 .User-Review h4{
-    font-family: "Lato";
-  font-weight: 700;
-  font-size: 1.2rem;
+   font: 700 1.2rem "Lato", sans-serif;
 }
 
 .User-Review span,
 .User-Review .form-label{
-    font-family: "Lato";
-  font-weight: 700;
-  font-size: 1rem;
+   font: 700 1rem "Lato", sans-serif;
   color: #fff;
 }
 
 .User-Review .form-check-label{
-    font-family: "Lato";
-  font-weight: 600;
-  font-size: 1rem;
+   font: 600 1rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 
 .Reviwer h5{
-    font-family: "Lato";
-  font-weight: 800;
-  font-size: 1.2rem;
+   font: 800 1.2rem "Lato", sans-serif;
 }
 
 .Reviwer p{
-    font-family: "Lato";
-  font-weight: 500;
-  font-size: 1rem;
+   font: 500 1rem "Lato", sans-serif;
   color: #a7a5ad;
 }
 /* John Wick Ch4 */
